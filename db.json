@@ -15,7 +15,6 @@
   ],
 
   "steps": [
-    /* === Steps for Classic Beef Burger === */
     {
       "id": 101,
       "key": "bun",
@@ -76,7 +75,6 @@
       ]
     },
 
-    /* === Steps for Grilled Chicken Burger === */
     {
       "id": 201,
       "key": "bun",
