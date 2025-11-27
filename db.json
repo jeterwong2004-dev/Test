@@ -2,25 +2,26 @@
   "bases": [
     {
       "id": 1,
-      "name": "Classic Beef Burger",
-      "description": "Our standard juicy beef patty.",
-      "steps": [101, 102, 103, 104, 105]
+      "name": "Beef Burger",
+      "description": "World famous juicy beef patty.",
+      "steps": [1, 2, 3, 4, 5]
     },
     {
       "id": 2,
-      "name": "Grilled Chicken Burger",
-      "description": "Lightly seasoned grilled chicken.",
-      "steps": [201, 202, 203, 204, 205]
+      "name": "Grilled Chicken Sandwich",
+      "description": "Deliciously healthy grilled chicken.",
+      "steps": [11, 12, 13, 14, 15]
     }
   ],
 
   "steps": [
+    /* Steps for Beef Burger */
     {
-      "id": 101,
+      "id": 1,
       "key": "bun",
       "type": "multiple",
       "title": "Choose Your Bun",
-      "hint": "Pick whichever bun feels right today.",
+      "hint": "Pick your Bun choice.",
       "choices": [
         { "id": "sesame", "label": "Sesame Bun" },
         { "id": "brioche", "label": "Brioche Bun" },
@@ -28,22 +29,22 @@
       ]
     },
     {
-      "id": 102,
+      "id": 2,
       "key": "protein",
       "type": "multiple",
       "title": "Protein Choice",
-      "hint": "All beef options for this base.",
+      "hint": "How many patty would you like?",
       "choices": [
         { "id": "single", "label": "Single Beef Patty" },
         { "id": "double", "label": "Double Beef Patty" }
       ]
     },
     {
-      "id": 103,
+      "id": 3,
       "key": "toppings",
       "type": "multiple",
       "title": "Pick a Topping",
-      "hint": "One at a time for demo purposes.",
+      "hint": "Chose your favorite topping.",
       "choices": [
         { "id": "lettuce", "label": "Lettuce" },
         { "id": "tomato", "label": "Tomato" },
@@ -52,19 +53,19 @@
       ]
     },
     {
-      "id": 104,
+      "id": 4,
       "key": "sauce",
       "type": "multiple",
       "title": "Select a Sauce",
-      "hint": "Careful: spicy + sweet bun triggers feedback.",
+      "hint": "Are you sure you want buffalo sauce with sweet buns?.",
       "choices": [
         { "id": "ketchup", "label": "Ketchup" },
         { "id": "mayo", "label": "Mayo" },
-        { "id": "spicy", "label": "Spicy Sauce" }
+        { "id": "buffalo", "label": "Buffalo sauce" }
       ]
     },
     {
-      "id": 105,
+      "id": 5,
       "key": "presentation",
       "type": "image",
       "title": "Pick a Burger Style",
@@ -75,8 +76,9 @@
       ]
     },
 
+    /* Steps for Grilled Chicken Sandwich */
     {
-      "id": 201,
+      "id": 11,
       "key": "bun",
       "type": "multiple",
       "title": "Choose Bun Type",
@@ -87,7 +89,7 @@
       ]
     },
     {
-      "id": 202,
+      "id": 12,
       "key": "protein",
       "type": "multiple",
       "title": "Protein",
@@ -98,7 +100,7 @@
       ]
     },
     {
-      "id": 203,
+      "id": 13,
       "key": "veggies",
       "type": "multiple",
       "title": "Veggie Add-ons",
@@ -109,7 +111,7 @@
       ]
     },
     {
-      "id": 204,
+      "id": 14,
       "key": "sauce",
       "type": "multiple",
       "title": "Sauce",
@@ -120,7 +122,7 @@
       ]
     },
     {
-      "id": 205,
+      "id": 15,
       "key": "extra",
       "type": "text",
       "title": "Any Extra Requests?",
