@@ -4,20 +4,20 @@
       "id": 1,
       "name": "Beef Burger",
       "description": "World famous juicy beef patty.",
-      "steps": [1, 2, 3, 4, 5]
+      "steps": [101, 102, 103, 104, 105]
     },
     {
       "id": 2,
       "name": "Grilled Chicken Sandwich",
       "description": "Deliciously healthy grilled chicken.",
-      "steps": [11, 12, 13, 14, 15]
+      "steps": [201, 202, 203, 204, 205]
     }
   ],
 
   "steps": [
     /* Steps for Beef Burger */
     {
-      "id": 1,
+      "id": 101,
       "key": "bun",
       "type": "multiple",
       "title": "Choose Your Bun",
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 102,
       "key": "protein",
       "type": "multiple",
       "title": "Protein Choice",
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 103,
       "key": "toppings",
       "type": "multiple",
       "title": "Pick a Topping",
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 104,
       "key": "sauce",
       "type": "multiple",
       "title": "Select a Sauce",
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 105,
       "key": "presentation",
       "type": "image",
       "title": "Pick a Burger Style",
@@ -78,7 +78,7 @@
 
     /* Steps for Grilled Chicken Sandwich */
     {
-      "id": 11,
+      "id": 201,
       "key": "bun",
       "type": "multiple",
       "title": "Choose Bun Type",
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 202,
       "key": "protein",
       "type": "multiple",
       "title": "Protein",
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 203,
       "key": "veggies",
       "type": "multiple",
       "title": "Veggie Add-ons",
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 204,
       "key": "sauce",
       "type": "multiple",
       "title": "Sauce",
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 205,
       "key": "extra",
       "type": "text",
       "title": "Any Extra Requests?",
@@ -134,7 +134,7 @@
   "feedbacks": [
     {
       "id": "spicy_sweet",
-      "message": "Spicy sauce with a sweet bun can be an odd combo. Just a quick heads-up!"
+      "message": "Buffalo sauce with a sweet bun, not your finest choice."
     }
   ]
 }
